@@ -1,0 +1,11 @@
+{
+	"name": "ASIA",
+	"apiBaseUrl": "https://parabank.parasoft.com/parabank/services/bank",
+	"webBaseUrl": "https://parabank.parasoft.com/parabank",
+	"currency": "USD",
+	"locale": "en-SG",
+	"credentials": {
+		"username": "john",
+		"password": "demo"
+	}
+}

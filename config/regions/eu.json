@@ -1,0 +1,11 @@
+{
+	"name": "EU",
+	"apiBaseUrl": "https://parabank.parasoft.com/parabank/services/bank",
+	"webBaseUrl": "https://parabank.parasoft.com/parabank",
+	"currency": "EUR",
+	"locale": "en-GB",
+	"credentials": {
+		"username": "john",
+		"password": "demo"
+	}
+}

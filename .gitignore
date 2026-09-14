@@ -1,0 +1,13 @@
+node_modules/
+dist/
+playwright-report/
+test-results/
+.vscode/
+.idea/
+.DS_Store
+npm-debug.log
+yarn-error.log
+coverage/
+.env
+*.local
+*.log
