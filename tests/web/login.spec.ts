@@ -2,6 +2,11 @@ import { test, expect } from "@playwright/test";
 import config from "../../src/regionConfig";
 import { ApiClient } from "../../src/apiClient";
 
+test("Login page is displayed correctly", async ({ page }) => {
+	await page.goto(config.webBaseUrl);
+	await expect(page).toHaveTitle(/ParaBank/i);
+});
+
 test("Web + API integration: account appears in UI", async ({ page }) => {
 	const client = new ApiClient();
 	const accountId = "12345";
